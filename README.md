@@ -30,10 +30,7 @@ On 8080/docs, Swagger will be present to view and interact with the APIs.
 
 ## /getVideos
 -  This API takes optional query parameters `page_num` and `page_size` and return paginated response in descending order of published time.
-<br/>
 
-![Alt text](/Screenshot%202022-11-05%20at%201.58.30%20PM.png?raw=true "")
-<br/>
 <br/>
 
 url: `http://0.0.0.0:8080/getVideos?page_num=1&page_size=2`
@@ -77,9 +74,6 @@ response:
 This is also able to search videos containing partial match for the search query in either video title or description. <br/>
 Ex: when searched for `bombshell dropped`, it will also show the video whose title/description is "DOGECOIN TO $1! ELON MUSK DROPPED A BOMBSHELL ON TWITTER!" 
 
-<br/><br/>
-- ![Alt text](Screenshot%202022-11-05%20at%202.06.57%20PM.png?raw=true "")
-<br/>
 
 url: 
 `
